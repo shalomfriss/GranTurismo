@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1B860205C35440CDABA050FF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B8281DEE6ED24989901A56A9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E73A093FEC5F4969AB68AE06 /* CMake Rules */,
+			);
+			dependencies = (
+				DFEDB738C44444BB8E5B809D /* PBXTargetDependency */,
+				2E5DCD5C21784392852E3E25 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D15875307E3C4B4BA39B3B62 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8FCCD4FBB26A4689A6BDE25B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3F63B4E60C774EE0AABD151E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3BF41008706946FC8B406157 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeFiles/CheckBox.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B13E44F2D8994BBA82965A0A /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeFiles/CheckBox.dir/Info.plist */; };
+		9E585F05E51044AE8F62B666 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6263241A320C460F8F3260DB /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeLists.txt */; };
+		B3BAD70CC56F41B9BF0CA853 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CheckBox.cpp */ = {isa = PBXBuildFile; fileRef = C1E0F98DF638497A9FA6132B /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CheckBox.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		10A49FB9665C44C7964A868A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		49EEA0BCBD894E819E9FE6FE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		550A4F9FC0BD4ED3B4DAC0D7 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6B4028426A02468294ED6997 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1B59FE2DF727487B8EC8C114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C80EFB530E4ACC8AB74278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15875307E3C4B4BA39B3B62;
+			remoteInfo = ZERO_CHECK;
+		};
+		58F0BD0F4E6E43A3B0B47994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C80EFB530E4ACC8AB74278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A47E763EDD744AEA21DE86C;
+			remoteInfo = CheckBox;
+		};
+		659C04CE837C4BCCB8D81F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C80EFB530E4ACC8AB74278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15875307E3C4B4BA39B3B62;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		486E019057954AC2AE2CCA05 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6263241A320C460F8F3260DB /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A3E06EA1D993439A9D90257F /* CheckBox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = CheckBox; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13E44F2D8994BBA82965A0A /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeFiles/CheckBox.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = CMakeFiles/CheckBox.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		C1E0F98DF638497A9FA6132B /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CheckBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CheckBox.cpp; path = CheckBox.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0362FDB4F732474B970A6A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3E06EA1D993439A9D90257F /* CheckBox */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A061431488F485FBCABF484 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B13E44F2D8994BBA82965A0A /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeFiles/CheckBox.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4DA197CBAF3E4622BC49AE33 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				5550928C62F4470D87B64807 /* Source Files */,
+				3A061431488F485FBCABF484 /* Resources */,
+				6263241A320C460F8F3260DB /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeLists.txt */,
+			);
+			name = CheckBox;
+			sourceTree = "<group>";
+		};
+		5550928C62F4470D87B64807 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1E0F98DF638497A9FA6132B /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CheckBox.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		62C3250724D240FC946D3114 = {
+			isa = PBXGroup;
+			children = (
+				4DA197CBAF3E4622BC49AE33 /* CheckBox */,
+				858C09899559419DB78F48FA /* ALL_BUILD */,
+				0362FDB4F732474B970A6A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69501AA0B5C14D44BFDB3AAA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		858C09899559419DB78F48FA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				69501AA0B5C14D44BFDB3AAA /* CMake Rules */,
+				486E019057954AC2AE2CCA05 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A47E763EDD744AEA21DE86C /* CheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1C95D6528649639CF12AEC /* Build configuration list for PBXNativeTarget "CheckBox" */;
+			buildPhases = (
+				D6C320717069445E8DC09F77 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E572FB95957461B8C65AB33 /* PBXTargetDependency */,
+			);
+			name = CheckBox;
+			productName = CheckBox;
+			productReference = A3E06EA1D993439A9D90257F /* CheckBox */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2C80EFB530E4ACC8AB74278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1150;
+			};
+			buildConfigurationList = 67B97FE148CC4CEA8CFB23FB /* Build configuration list for PBXProject "CheckBox" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				49EEA0BCBD894E819E9FE6FE /* Debug */,
+				6B4028426A02468294ED6997 /* Release */,
+				550A4F9FC0BD4ED3B4DAC0D7 /* MinSizeRel */,
+				10A49FB9665C44C7964A868A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 62C3250724D240FC946D3114;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				1B860205C35440CDABA050FF /* ALL_BUILD */,
+				3A47E763EDD744AEA21DE86C /* CheckBox */,
+				D15875307E3C4B4BA39B3B62 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		212D23C434F649B0BBFC8EDA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2E7CDC2CE60C4957A68633E9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3F63B4E60C774EE0AABD151E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox -f /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E73A093FEC5F4969AB68AE06 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox -f /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C320717069445E8DC09F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAD70CC56F41B9BF0CA853 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CheckBox.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E5DCD5C21784392852E3E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A47E763EDD744AEA21DE86C /* CheckBox */;
+			targetProxy = 58F0BD0F4E6E43A3B0B47994 /* PBXContainerItemProxy */;
+		};
+		7E572FB95957461B8C65AB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15875307E3C4B4BA39B3B62 /* ZERO_CHECK */;
+			targetProxy = 659C04CE837C4BCCB8D81F4A /* PBXContainerItemProxy */;
+		};
+		DFEDB738C44444BB8E5B809D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15875307E3C4B4BA39B3B62 /* ZERO_CHECK */;
+			targetProxy = 1B59FE2DF727487B8EC8C114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18B5640185F940EC8DFFA923 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/libffi/3.3/include,"/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include","/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0/unix-print","/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include","/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include","/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4","/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include","/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0","/usr/local/Cellar/glib/2.64.3/include/gio-unix-2.0",/usr/local/Cellar/cairo/1.16.0_3/include/cairo,/usr/local/Cellar/libepoxy/1.5.4_1/include,"/usr/local/Cellar/pango/1.44.7/include/pango-1.0",/usr/local/Cellar/fribidi/1.0.9/include/fribidi,/usr/local/Cellar/harfbuzz/2.6.8/include/harfbuzz,/usr/local/Cellar/graphite2/1.3.14/include,"/usr/local/Cellar/atk/2.36.0/include/atk-1.0","/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0","/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include","/usr/local/Cellar/pixman/0.40.0/include/pixman-1",/usr/local/Cellar/fontconfig/2.13.1/include,/usr/local/opt/freetype/include/freetype2,/usr/local/Cellar/libpng/1.6.37/include/libpng16,"/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0","/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include","/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0",/usr/local/Cellar/glib/2.64.3/include,"/usr/local/Cellar/glib/2.64.3/include/glib-2.0","/usr/local/Cellar/glib/2.64.3/lib/glib-2.0/include",/usr/local/opt/gettext/include,/usr/local/Cellar/pcre/8.44/include);
+				INFOPLIST_FILE = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeFiles/CheckBox.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/gtkmm3/3.24.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/gettext/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgio-2.0 -lcairomm-1.0 -lcairo -lsigc-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CheckBox;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		24C1AD52C8FB47AD9A6A9A35 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		35BA0CCAF56941388C53F0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		38A24E9ECF8B4AA7A111E40E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4ADF1C82A81C4B38B361231D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/libffi/3.3/include,"/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include","/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0/unix-print","/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include","/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include","/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4","/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include","/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0","/usr/local/Cellar/glib/2.64.3/include/gio-unix-2.0",/usr/local/Cellar/cairo/1.16.0_3/include/cairo,/usr/local/Cellar/libepoxy/1.5.4_1/include,"/usr/local/Cellar/pango/1.44.7/include/pango-1.0",/usr/local/Cellar/fribidi/1.0.9/include/fribidi,/usr/local/Cellar/harfbuzz/2.6.8/include/harfbuzz,/usr/local/Cellar/graphite2/1.3.14/include,"/usr/local/Cellar/atk/2.36.0/include/atk-1.0","/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0","/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include","/usr/local/Cellar/pixman/0.40.0/include/pixman-1",/usr/local/Cellar/fontconfig/2.13.1/include,/usr/local/opt/freetype/include/freetype2,/usr/local/Cellar/libpng/1.6.37/include/libpng16,"/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0","/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include","/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0",/usr/local/Cellar/glib/2.64.3/include,"/usr/local/Cellar/glib/2.64.3/include/glib-2.0","/usr/local/Cellar/glib/2.64.3/lib/glib-2.0/include",/usr/local/opt/gettext/include,/usr/local/Cellar/pcre/8.44/include);
+				INFOPLIST_FILE = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeFiles/CheckBox.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/gtkmm3/3.24.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/gettext/lib";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgio-2.0 -lcairomm-1.0 -lcairo -lsigc-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CheckBox;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		579041C3D105486982D2CF57 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		596D634A35AF4A8B9ED10B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6C0EE611CEE949DF9DCCA8AF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/libffi/3.3/include,"/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include","/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0/unix-print","/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include","/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include","/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4","/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include","/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0","/usr/local/Cellar/glib/2.64.3/include/gio-unix-2.0",/usr/local/Cellar/cairo/1.16.0_3/include/cairo,/usr/local/Cellar/libepoxy/1.5.4_1/include,"/usr/local/Cellar/pango/1.44.7/include/pango-1.0",/usr/local/Cellar/fribidi/1.0.9/include/fribidi,/usr/local/Cellar/harfbuzz/2.6.8/include/harfbuzz,/usr/local/Cellar/graphite2/1.3.14/include,"/usr/local/Cellar/atk/2.36.0/include/atk-1.0","/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0","/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include","/usr/local/Cellar/pixman/0.40.0/include/pixman-1",/usr/local/Cellar/fontconfig/2.13.1/include,/usr/local/opt/freetype/include/freetype2,/usr/local/Cellar/libpng/1.6.37/include/libpng16,"/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0","/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include","/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0",/usr/local/Cellar/glib/2.64.3/include,"/usr/local/Cellar/glib/2.64.3/include/glib-2.0","/usr/local/Cellar/glib/2.64.3/lib/glib-2.0/include",/usr/local/opt/gettext/include,/usr/local/Cellar/pcre/8.44/include);
+				INFOPLIST_FILE = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeFiles/CheckBox.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/gtkmm3/3.24.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/gettext/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgio-2.0 -lcairomm-1.0 -lcairo -lsigc-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CheckBox;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		82290D49B33540BE972C0819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/build";
+			};
+			name = Release;
+		};
+		88D01AAB052E4364B11B9B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8DFBD1AA974048E5BF25CE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/build";
+			};
+			name = Debug;
+		};
+		C36895D0DDB64A80811770CE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CAAE7EA9BD094D7E9DD9D052 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/build";
+			};
+			name = RelWithDebInfo;
+		};
+		DB2D6F7B3EC4482C80473999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E1A5A5CEF59D40AD9FD2BE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/libffi/3.3/include,"/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include","/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0/unix-print","/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include","/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include","/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4","/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include","/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0","/usr/local/Cellar/glib/2.64.3/include/gio-unix-2.0",/usr/local/Cellar/cairo/1.16.0_3/include/cairo,/usr/local/Cellar/libepoxy/1.5.4_1/include,"/usr/local/Cellar/pango/1.44.7/include/pango-1.0",/usr/local/Cellar/fribidi/1.0.9/include/fribidi,/usr/local/Cellar/harfbuzz/2.6.8/include/harfbuzz,/usr/local/Cellar/graphite2/1.3.14/include,"/usr/local/Cellar/atk/2.36.0/include/atk-1.0","/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0","/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include","/usr/local/Cellar/pixman/0.40.0/include/pixman-1",/usr/local/Cellar/fontconfig/2.13.1/include,/usr/local/opt/freetype/include/freetype2,/usr/local/Cellar/libpng/1.6.37/include/libpng16,"/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0","/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include","/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0",/usr/local/Cellar/glib/2.64.3/include,"/usr/local/Cellar/glib/2.64.3/include/glib-2.0","/usr/local/Cellar/glib/2.64.3/lib/glib-2.0/include",/usr/local/opt/gettext/include,/usr/local/Cellar/pcre/8.44/include);
+				INFOPLIST_FILE = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/CMakeFiles/CheckBox.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/gtkmm3/3.24.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/gettext/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgio-2.0 -lcairomm-1.0 -lcairo -lsigc-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CheckBox;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FDF8B7B7F9714139B3F6F96F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/CheckBox/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F1C95D6528649639CF12AEC /* Build configuration list for PBXNativeTarget "CheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADF1C82A81C4B38B361231D /* Debug */,
+				E1A5A5CEF59D40AD9FD2BE24 /* Release */,
+				6C0EE611CEE949DF9DCCA8AF /* MinSizeRel */,
+				18B5640185F940EC8DFFA923 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		67B97FE148CC4CEA8CFB23FB /* Build configuration list for PBXProject "CheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DFBD1AA974048E5BF25CE51 /* Debug */,
+				82290D49B33540BE972C0819 /* Release */,
+				FDF8B7B7F9714139B3F6F96F /* MinSizeRel */,
+				CAAE7EA9BD094D7E9DD9D052 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FCCD4FBB26A4689A6BDE25B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596D634A35AF4A8B9ED10B27 /* Debug */,
+				35BA0CCAF56941388C53F0E5 /* Release */,
+				24C1AD52C8FB47AD9A6A9A35 /* MinSizeRel */,
+				C36895D0DDB64A80811770CE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8281DEE6ED24989901A56A9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2D6F7B3EC4482C80473999 /* Debug */,
+				88D01AAB052E4364B11B9B4E /* Release */,
+				579041C3D105486982D2CF57 /* MinSizeRel */,
+				38A24E9ECF8B4AA7A111E40E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2C80EFB530E4ACC8AB74278 /* Project object */;
+}

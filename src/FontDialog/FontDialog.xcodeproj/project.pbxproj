@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1B860205C35440CDABA050FF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 655EB1BC7BE5448DAB970A33 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				90ACD7895BFC4C07A1831334 /* CMake Rules */,
+			);
+			dependencies = (
+				2BCF8716FC5442899E139F9A /* PBXTargetDependency */,
+				5A7F1438B29644B29FB6C1DE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D15875307E3C4B4BA39B3B62 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9F0922A1A581406B8E9FA03F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3D8B396E750A425C9653129B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		77690EAC56CA4420AA68B498 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9FDF7BED25704D3889744A4B /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeLists.txt */; };
+		781AC7D719F54595A0BCB168 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/FontDialog.cpp */ = {isa = PBXBuildFile; fileRef = EEE2E1C0B04E4B33A34D7751 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/FontDialog.cpp */; };
+		935BA67FD561490E86E1C7B7 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeFiles/FontDialog.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 4F8DCBC07B7B4252B64FCDA5 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeFiles/FontDialog.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		9A2FF03A9CC941B48B574EF4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A24102EBDB7D4668B147E6FE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F63E739FA3B54A93A034E011 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FBD171C29BA5449CA1442309 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		6B926A868A7141F99C256E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21406A79D7CA45E494D41C45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503F32546C5A420DBC5B631C;
+			remoteInfo = FontDialog;
+		};
+		9894AF8D8FDA4018A4F9ED47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21406A79D7CA45E494D41C45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15875307E3C4B4BA39B3B62;
+			remoteInfo = ZERO_CHECK;
+		};
+		B7FF8248CB4E4E119EA8C91F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21406A79D7CA45E494D41C45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15875307E3C4B4BA39B3B62;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F8DCBC07B7B4252B64FCDA5 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeFiles/FontDialog.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = CMakeFiles/FontDialog.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		5A6E5FD84AB946E897673774 /* FontDialog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = FontDialog; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDF7BED25704D3889744A4B /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C0CC3D1094034D3891ECC317 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EEE2E1C0B04E4B33A34D7751 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/FontDialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FontDialog.cpp; path = FontDialog.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B1CA7D623F944159AD8207F /* FontDialog */ = {
+			isa = PBXGroup;
+			children = (
+				2D93FA29B0C3431F9111C8A2 /* Source Files */,
+				C196DCE5AF584237933CA176 /* Resources */,
+				9FDF7BED25704D3889744A4B /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeLists.txt */,
+			);
+			name = FontDialog;
+			sourceTree = "<group>";
+		};
+		2D93FA29B0C3431F9111C8A2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE2E1C0B04E4B33A34D7751 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/FontDialog.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		85AE18E4C2EF4CDD8D1C0A8D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E91C0BDB78D1416B801C3037 /* CMake Rules */,
+				C0CC3D1094034D3891ECC317 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9F8EDDD50D7548BB8FDEB06B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6E5FD84AB946E897673774 /* FontDialog */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C196DCE5AF584237933CA176 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F8DCBC07B7B4252B64FCDA5 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeFiles/FontDialog.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E5DE1ADDA66949F4B2DCFA83 = {
+			isa = PBXGroup;
+			children = (
+				1B1CA7D623F944159AD8207F /* FontDialog */,
+				85AE18E4C2EF4CDD8D1C0A8D /* ALL_BUILD */,
+				9F8EDDD50D7548BB8FDEB06B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E91C0BDB78D1416B801C3037 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503F32546C5A420DBC5B631C /* FontDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B055803DC4D84803A70AFC69 /* Build configuration list for PBXNativeTarget "FontDialog" */;
+			buildPhases = (
+				0EF589CDBD3D4D2C885BF8E8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E4BFF6FAAEF4D798B5AF8A4 /* PBXTargetDependency */,
+			);
+			name = FontDialog;
+			productName = FontDialog;
+			productReference = 5A6E5FD84AB946E897673774 /* FontDialog */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21406A79D7CA45E494D41C45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1150;
+			};
+			buildConfigurationList = E760A56241624CFAA0028E0C /* Build configuration list for PBXProject "FontDialog" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A24102EBDB7D4668B147E6FE /* Debug */,
+				9A2FF03A9CC941B48B574EF4 /* Release */,
+				FBD171C29BA5449CA1442309 /* MinSizeRel */,
+				F63E739FA3B54A93A034E011 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E5DE1ADDA66949F4B2DCFA83;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				1B860205C35440CDABA050FF /* ALL_BUILD */,
+				503F32546C5A420DBC5B631C /* FontDialog */,
+				D15875307E3C4B4BA39B3B62 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D8B396E750A425C9653129B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog -f /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		90ACD7895BFC4C07A1831334 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog -f /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9F0B5A90C95D451BAAB54AEA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AE226EDC8FF14325B1DFBCAA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EF589CDBD3D4D2C885BF8E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781AC7D719F54595A0BCB168 /* /Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/FontDialog.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BCF8716FC5442899E139F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503F32546C5A420DBC5B631C /* FontDialog */;
+			targetProxy = 6B926A868A7141F99C256E5F /* PBXContainerItemProxy */;
+		};
+		5A7F1438B29644B29FB6C1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15875307E3C4B4BA39B3B62 /* ZERO_CHECK */;
+			targetProxy = 9894AF8D8FDA4018A4F9ED47 /* PBXContainerItemProxy */;
+		};
+		7E4BFF6FAAEF4D798B5AF8A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15875307E3C4B4BA39B3B62 /* ZERO_CHECK */;
+			targetProxy = B7FF8248CB4E4E119EA8C91F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A01106F242F497C96032E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		109CDEFCDEEC48B7AF414E1D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/build";
+			};
+			name = MinSizeRel;
+		};
+		22E82B36BF7744ECB85D41C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		38FF40CC62084467BE7BE9A0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3FD0C58573D6405FA013820B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4066EE52D2A8462FBD05E08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/build";
+			};
+			name = Release;
+		};
+		4D39274EE8A84B5898248D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6200813B8334490CB07FF8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/build";
+			};
+			name = Debug;
+		};
+		65D5BAF8CF7B4A07B6B27836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/libffi/3.3/include,"/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include","/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0/unix-print","/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include","/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include","/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4","/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include","/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0","/usr/local/Cellar/glib/2.64.3/include/gio-unix-2.0",/usr/local/Cellar/cairo/1.16.0_3/include/cairo,/usr/local/Cellar/libepoxy/1.5.4_1/include,"/usr/local/Cellar/pango/1.44.7/include/pango-1.0",/usr/local/Cellar/fribidi/1.0.9/include/fribidi,/usr/local/Cellar/harfbuzz/2.6.8/include/harfbuzz,/usr/local/Cellar/graphite2/1.3.14/include,"/usr/local/Cellar/atk/2.36.0/include/atk-1.0","/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0","/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include","/usr/local/Cellar/pixman/0.40.0/include/pixman-1",/usr/local/Cellar/fontconfig/2.13.1/include,/usr/local/opt/freetype/include/freetype2,/usr/local/Cellar/libpng/1.6.37/include/libpng16,"/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0","/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include","/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0",/usr/local/Cellar/glib/2.64.3/include,"/usr/local/Cellar/glib/2.64.3/include/glib-2.0","/usr/local/Cellar/glib/2.64.3/lib/glib-2.0/include",/usr/local/opt/gettext/include,/usr/local/Cellar/pcre/8.44/include);
+				INFOPLIST_FILE = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeFiles/FontDialog.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/gtkmm3/3.24.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/gettext/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgio-2.0 -lcairomm-1.0 -lcairo -lsigc-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FontDialog;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6FC55E38D2844E1E84449DB6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/libffi/3.3/include,"/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include","/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0/unix-print","/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include","/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include","/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4","/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include","/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0","/usr/local/Cellar/glib/2.64.3/include/gio-unix-2.0",/usr/local/Cellar/cairo/1.16.0_3/include/cairo,/usr/local/Cellar/libepoxy/1.5.4_1/include,"/usr/local/Cellar/pango/1.44.7/include/pango-1.0",/usr/local/Cellar/fribidi/1.0.9/include/fribidi,/usr/local/Cellar/harfbuzz/2.6.8/include/harfbuzz,/usr/local/Cellar/graphite2/1.3.14/include,"/usr/local/Cellar/atk/2.36.0/include/atk-1.0","/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0","/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include","/usr/local/Cellar/pixman/0.40.0/include/pixman-1",/usr/local/Cellar/fontconfig/2.13.1/include,/usr/local/opt/freetype/include/freetype2,/usr/local/Cellar/libpng/1.6.37/include/libpng16,"/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0","/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include","/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0",/usr/local/Cellar/glib/2.64.3/include,"/usr/local/Cellar/glib/2.64.3/include/glib-2.0","/usr/local/Cellar/glib/2.64.3/lib/glib-2.0/include",/usr/local/opt/gettext/include,/usr/local/Cellar/pcre/8.44/include);
+				INFOPLIST_FILE = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeFiles/FontDialog.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/gtkmm3/3.24.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/gettext/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgio-2.0 -lcairomm-1.0 -lcairo -lsigc-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FontDialog;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9D0F678A3C184E8BB3228E9E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A17F29FA923C4FA396E4B847 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B8FFFBC8B5A74115B73F4F66 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/libffi/3.3/include,"/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include","/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0/unix-print","/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include","/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include","/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4","/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include","/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0","/usr/local/Cellar/glib/2.64.3/include/gio-unix-2.0",/usr/local/Cellar/cairo/1.16.0_3/include/cairo,/usr/local/Cellar/libepoxy/1.5.4_1/include,"/usr/local/Cellar/pango/1.44.7/include/pango-1.0",/usr/local/Cellar/fribidi/1.0.9/include/fribidi,/usr/local/Cellar/harfbuzz/2.6.8/include/harfbuzz,/usr/local/Cellar/graphite2/1.3.14/include,"/usr/local/Cellar/atk/2.36.0/include/atk-1.0","/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0","/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include","/usr/local/Cellar/pixman/0.40.0/include/pixman-1",/usr/local/Cellar/fontconfig/2.13.1/include,/usr/local/opt/freetype/include/freetype2,/usr/local/Cellar/libpng/1.6.37/include/libpng16,"/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0","/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include","/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0",/usr/local/Cellar/glib/2.64.3/include,"/usr/local/Cellar/glib/2.64.3/include/glib-2.0","/usr/local/Cellar/glib/2.64.3/lib/glib-2.0/include",/usr/local/opt/gettext/include,/usr/local/Cellar/pcre/8.44/include);
+				INFOPLIST_FILE = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeFiles/FontDialog.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/gtkmm3/3.24.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/gettext/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgio-2.0 -lcairomm-1.0 -lcairo -lsigc-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FontDialog;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C53A43BBC1164267ABC47823 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD6E753C15404E7A802F0302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F9C5D868FFDB4EF0930D0E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/Cellar/libffi/3.3/include,"/usr/local/Cellar/gtkmm3/3.24.2_1/include/gtkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gtkmm-3.0/include","/usr/local/Cellar/atkmm/2.28.0_2/include/atkmm-1.6","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0/unix-print","/usr/local/Cellar/gtkmm3/3.24.2_1/include/gdkmm-3.0","/usr/local/Cellar/gtkmm3/3.24.2_1/lib/gdkmm-3.0/include","/usr/local/Cellar/glibmm/2.64.2/include/giomm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/giomm-2.4/include","/usr/local/Cellar/pangomm/2.42.1/include/pangomm-1.4","/usr/local/Cellar/pangomm/2.42.1/lib/pangomm-1.4/include","/usr/local/Cellar/glibmm/2.64.2/include/glibmm-2.4","/usr/local/Cellar/glibmm/2.64.2/lib/glibmm-2.4/include","/usr/local/Cellar/gtk+3/3.24.21/include/gtk-3.0","/usr/local/Cellar/glib/2.64.3/include/gio-unix-2.0",/usr/local/Cellar/cairo/1.16.0_3/include/cairo,/usr/local/Cellar/libepoxy/1.5.4_1/include,"/usr/local/Cellar/pango/1.44.7/include/pango-1.0",/usr/local/Cellar/fribidi/1.0.9/include/fribidi,/usr/local/Cellar/harfbuzz/2.6.8/include/harfbuzz,/usr/local/Cellar/graphite2/1.3.14/include,"/usr/local/Cellar/atk/2.36.0/include/atk-1.0","/usr/local/Cellar/cairomm/1.12.2_1/include/cairomm-1.0","/usr/local/Cellar/cairomm/1.12.2_1/lib/cairomm-1.0/include","/usr/local/Cellar/pixman/0.40.0/include/pixman-1",/usr/local/Cellar/fontconfig/2.13.1/include,/usr/local/opt/freetype/include/freetype2,/usr/local/Cellar/libpng/1.6.37/include/libpng16,"/usr/local/Cellar/libsigc++@2/2.10.3/include/sigc++-2.0","/usr/local/Cellar/libsigc++@2/2.10.3/lib/sigc++-2.0/include","/usr/local/Cellar/gdk-pixbuf/2.40.0_1/include/gdk-pixbuf-2.0",/usr/local/Cellar/glib/2.64.3/include,"/usr/local/Cellar/glib/2.64.3/include/glib-2.0","/usr/local/Cellar/glib/2.64.3/lib/glib-2.0/include",/usr/local/opt/gettext/include,/usr/local/Cellar/pcre/8.44/include);
+				INFOPLIST_FILE = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog/CMakeFiles/FontDialog.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/Cellar/gtkmm3/3.24.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtkmm3/3.24.2_1/lib /usr/local/Cellar/atkmm/2.28.0_2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atkmm/2.28.0_2/lib /usr/local/Cellar/glibmm/2.64.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glibmm/2.64.2/lib /usr/local/Cellar/pangomm/2.42.1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pangomm/2.42.1/lib /usr/local/Cellar/gtk+3/3.24.21/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gtk+3/3.24.21/lib /usr/local/Cellar/pango/1.44.7/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/pango/1.44.7/lib /usr/local/Cellar/harfbuzz/2.6.8/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/harfbuzz/2.6.8/lib /usr/local/Cellar/atk/2.36.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/atk/2.36.0/lib /usr/local/Cellar/cairo/1.16.0_3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairo/1.16.0_3/lib /usr/local/Cellar/glib/2.64.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/glib/2.64.3/lib /usr/local/Cellar/cairomm/1.12.2_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/cairomm/1.12.2_1/lib /usr/local/Cellar/libsigc++@2/2.10.3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libsigc++@2/2.10.3/lib /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/gdk-pixbuf/2.40.0_1/lib /usr/local/opt/gettext/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/gettext/lib";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lgio-2.0 -lcairomm-1.0 -lcairo -lsigc-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lintl";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FontDialog;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/shalomfriss/Downloads/Examples_Gtkmm-master/src/FontDialog";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655EB1BC7BE5448DAB970A33 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A01106F242F497C96032E7D /* Debug */,
+				22E82B36BF7744ECB85D41C1 /* Release */,
+				C53A43BBC1164267ABC47823 /* MinSizeRel */,
+				9D0F678A3C184E8BB3228E9E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F0922A1A581406B8E9FA03F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6E753C15404E7A802F0302 /* Debug */,
+				4D39274EE8A84B5898248D2A /* Release */,
+				3FD0C58573D6405FA013820B /* MinSizeRel */,
+				38FF40CC62084467BE7BE9A0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B055803DC4D84803A70AFC69 /* Build configuration list for PBXNativeTarget "FontDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C5D868FFDB4EF0930D0E57 /* Debug */,
+				65D5BAF8CF7B4A07B6B27836 /* Release */,
+				B8FFFBC8B5A74115B73F4F66 /* MinSizeRel */,
+				6FC55E38D2844E1E84449DB6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E760A56241624CFAA0028E0C /* Build configuration list for PBXProject "FontDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6200813B8334490CB07FF8F1 /* Debug */,
+				4066EE52D2A8462FBD05E08C /* Release */,
+				109CDEFCDEEC48B7AF414E1D /* MinSizeRel */,
+				A17F29FA923C4FA396E4B847 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21406A79D7CA45E494D41C45 /* Project object */;
+}
